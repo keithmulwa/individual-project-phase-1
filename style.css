@@ -1,0 +1,111 @@
+  body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: brown;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: white;
+}
+
+nav {
+  padding: 10px;
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+}
+
+nav a {
+  color: #ecf0f1;
+  text-decoration: none;
+  margin: 0 10px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.ctr {
+  background-color: rgb(157, 193, 224);
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 20px;
+  margin: 40px auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  resize: vertical;
+  font-family: inherit;
+}
+
+textarea {
+  height: 100px;
+  width: 100%;
+}
+
+button {
+  height: 40px;
+  width: 150px;
+  justify-content: center;
+  margin: 10px 0;
+  cursor: pointer;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #3498db;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#tweetsctr {
+  margin-top: 20px;
+}
+
+.tweet {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-left: 5px solid #2980b9;
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  text-align: center;
+  padding: 15px 0;
+  color: white;
+  background-color: #2c3e50;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-size: 14px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MACO.com</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <header>Welcome to Maco site where your thoughts come to life</header>
+
+  <nav>
+    <a href="#" onclick="alert('This is a single-page app!'); return false;">Home</a><br />
+    <a href="#" onclick="alert('About section coming soon!'); return false;">About</a><br />
+    <a href="#" onclick="alert('Contact section coming soon!'); return false;">Contact</a><br />
+  </nav>
+
+  <div class="ctr">
+    <h1>MACO</h1>
+
+    <form id="tweetform">
+      <input type="text" id="username" placeholder="USERNAME" required />
+      <textarea id="tweetinput" placeholder="tweet at Maco"></textarea>
+      <button type="submit">Share</button>
+    </form>
+
+    <button id="get-quote">Get Motivational Quote</button>
+    <div id="quote-display" style="margin-top:10px; font-style: italic;"></div>
+
+    <div id="tweetsctr"></div>
+  </div>
+
+  <footer>
+    By Mulwa <br />
+    Thank you
+  </footer>
+
+  <script src="./script.js" defer></script>
+</body>
+
+</html>
