@@ -4,7 +4,9 @@ MACO is a simple single-page web application where users can share their thought
 
 ## Features
 1.Post Tweets: Users can enter a username and message to create a tweet, which is saved in the browser's local storage.
+
 2.View Tweets: Tweets are displayed in reverse chronological order, with the most recent at the top.
+
 3.Motivational Quotes: Users can fetch random motivational quotes from an external API (currently using Quotable API).
 4.Responsive Design: The site is styled for usability on both desktop and mobile devices.
 
