@@ -8,19 +8,25 @@ MACO is a simple single-page web application where users can share their thought
 2.View Tweets: Tweets are displayed in reverse chronological order, with the most recent at the top.
 
 3.Motivational Quotes: Users can fetch random motivational quotes from an external API (currently using Quotable API).
+
 4.Responsive Design: The site is styled for usability on both desktop and mobile devices.
 
 ## Technologies Used
 
 1.HTML: Structure of the single-page application.
+
 2.CSS: Styling for a clean and modern look, with a brown background and centered content.
+
 3.JavaScript: Handles form submission, local storage for tweets, and API calls for quotes.
+
 4.External API: Quotable API (https://api.quotable.io/random) for fetching motivational quotes.
 
 ## Setup Instructions
 
 1.Clone or Download: Copy the project files (index.html, style.css, script.js) to your local machine.
+
 2.Host the Site:
+
 3.Open index.html in a browser for quick testing (note: some browsers may block API calls when using file://).
 For full functionality, host the files using a local server (e.g., VS Code Live Server or http-server via Node.js).
 
