@@ -19,7 +19,7 @@ MACO is a simple single-page web application where users can share their thought
 
 3.JavaScript: Handles form submission, local storage for tweets, and API calls for quotes.
 
-4.External API: Quotable API (https://api.quotable.io/random) for fetching motivational quotes.
+4.External API:https://zenquotes.io/api/random  for fetching motivational quotes.
 
 ## Setup Instructions
 
